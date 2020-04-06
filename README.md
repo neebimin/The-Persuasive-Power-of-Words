@@ -1,4 +1,5 @@
 # Capstone Project: The Persuasive Power of Words
+by Nee Bimin
 
 #### Problem Statement
 
