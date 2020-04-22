@@ -56,15 +56,19 @@ Besides running binary classifiers, multilabel classifiers were also run with a 
 
 Findings include:
 **Top Coefficients of Persuasive Classifier**
-![](../images/top_persuasive.png)
+
+![](./images/top_persuasive.png)
+
 The tags that come up most frequently for persuasive talks are global issues, culture and business so it is no surprise that the words related to global issues (e.g. problem) and business (e.g. percent, business) and culture (e.g. food) have made it to the top positive coefficients in persuasive talks.
 
 **Top Coefficients of Inspiring Classifier**
-![](../images/top_inspiring.png)
+
+![](./images/top_inspiring.png)
+
 The top inspiring words seem to be mainly focussed on education and we saw that educator is one of the top professions with talks voted inspiring.
 
 **Top Coefficients of Unconvincing Classifier**
-![](../images/top_unconvincing.png)
+![](./images/top_unconvincing.png)
 The top unconvincing word is 'okay', which may suggest that a neutral word like 'okay' does not leave much of an impression on the audience.
 
 The model chosen is the Logistic Regression multilabel classifier because it generalised better than the rest of the models.
@@ -75,27 +79,27 @@ The model chosen is the Logistic Regression multilabel classifier because it gen
 
 Taking a look at the top tags or topics associated with the labels persuasive, inspiring and unconvincing will help us know if the content of the talk is the main reason behind the ratings given.
 
-![](../images/persuasive_tags.png)
+![](./images/persuasive_tags.png)
 
-![](../images/inspiring_tags.png)
+![](./images/inspiring_tags.png)
 
-![](../images/unconvincing_tags.png)
+![](./images/unconvincing_tags.png)
 
 Common tags appear in all three types of talks. So it suggests that the topics of the talks are simply following the current trend and that topics are not the main driver behind the ratings given.
 
 Next, we look at occupations to see if they are different across differently labeled talks.
 
-![](../images/persuasive_occ.png)
+![](./images/persuasive_occ.png)
 
-![](../images/inspiring_occ.png)
+![](./images/inspiring_occ.png)
 
-![](../images/unconvincing_occ.png)
+![](./images/unconvincing_occ.png)
 
 In the top 5 occupations for persuasive and inspiring talks, we see author, writer and activist. Interestingly, philosophers take second place for both persuasive and unconvincing talks. However, most of the occupations associated with unconvincing talks are mainly in the creative domain e.g. artist, designer, inventor. 
 
 To check if the hypothesis that persuasive and inspiring are closely related and hence, inspiring should be included in our modeling later, we look at a Venn diagram. 
 
-![](../images/venn.png)
+![](./images/venn.png)
 
 This Venn diagram shows the overlapping words of persuasive and inspiring talks and we can see that most of the frequently occuring words for both talks are also part of the overlapping words.
 
