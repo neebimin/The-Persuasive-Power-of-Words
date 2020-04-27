@@ -76,9 +76,7 @@ The model chosen is the Logistic Regression multilabel classifier because it gen
 **Deployment**
 
 The production model has been deployed on persuasively.herokuapp.com. A snapshot of the web app is included here:
-
 ![](./images/persuasively.png)
-
 ---
 
 ### Exploratory Visualisations
