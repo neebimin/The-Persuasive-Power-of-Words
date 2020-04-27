@@ -73,6 +73,11 @@ The top unconvincing word is 'okay', which may suggest that a neutral word like 
 
 The model chosen is the Logistic Regression multilabel classifier because it generalised better than the rest of the models.
 
+**Deployment**
+The production model has been deployed on persuasively.herokuapp.com. A snapshot of the web app is included here:
+
+![](./images/persuasively)
+
 ---
 
 ### Exploratory Visualisations
